@@ -6,6 +6,15 @@
 ## Syntax
 [expression for item in iterable if condition]
 
+
+- expression → what you want to store in the list
+-	item → variable that takes each value from the iterable (like a list, range, string, etc.)  
+-	iterable → sequence to loop through  
+-	condition (optional) → filters which items to include  
+
+
+
+
 ## Examples
 
 ### Normal Loop
@@ -37,3 +46,4 @@ matrix = [[j for j in range(3)] for i in range(3)]
 print(matrix)
 # [[0, 1, 2], [0, 1, 2], [0, 1, 2]]
 ```
+
