@@ -1,0 +1,11 @@
+# ===============================
+# BASICS OF PYTHON 
+# ===============================
+
+# 1. Variables
+# - Used to store data values.
+# - No need to declare type; Python infers it.
+```python
+x = 5           # integer
+name = "Sakshi" # string
+print(x, name)
