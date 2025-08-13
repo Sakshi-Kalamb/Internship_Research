@@ -2,6 +2,7 @@
 
 - Shorter, cleaner way to create lists in Python using a single line.
 - More readable and slightly faster than normal loops.
+- List comprehension is basically a shortcut to apply a for loop (and optionally an if condition) in a single line to create a new list.
 
 ## Syntax
 [expression for item in iterable if condition]
@@ -45,5 +46,6 @@ matrix = [[j for j in range(3)] for i in range(3)]
 print(matrix)
 # [[0, 1, 2], [0, 1, 2], [0, 1, 2]]
 ```
+
 
 
