@@ -83,6 +83,11 @@ This is the second line.
 This is an appended line.
 """
 ```
+- ### to add 2 modes:
+  1. r+ (Read + Write Mode)
+  2. w+ (Write + Read Mode)
+  3. a+ (Append + Read Mode)
+  
 
 
 
