@@ -2,7 +2,7 @@
 
 - File handling allows you to store data permanently in files and retrieve it later.
 - Useful for saving logs, storing user input, reading configurations, etc.
-##Basic Steps:
+## Basic Steps:
 a.	Open the file (open()) → Specify file name & mode.  
 b.	Perform Operations → Read, Write, or Append.  
 c.	Close the file (close()), unless using a with block.  
@@ -83,6 +83,7 @@ This is the second line.
 This is an appended line.
 """
 ```
+
 
 
 
