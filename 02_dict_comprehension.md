@@ -1,7 +1,7 @@
 # Dict Comprehension
 
-A dictionary comprehension in Python is just like a list comprehension, but instead of producing a list, it produces a dictionary (key–value pairs).  
-It’s a short, neat way to create or transform dictionaries in a single line.
+
+It creates a dictionary (key–value pairs) in a single line using a loop (and optionally conditions).
 
 ## 1. Basic Syntax
 
@@ -47,3 +47,4 @@ Output:
 
 {1: 'a', 2: 'b', 3: 'c'}
 ```
+
