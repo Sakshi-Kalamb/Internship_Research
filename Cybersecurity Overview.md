@@ -1,0 +1,144 @@
+# Cybersecurity Overview 🚀
+
+A detailed guide covering **what cybersecurity is, why it matters, challenges, latest trends, common cyberattacks with solutions, ITAM vs CSAM, and CSAM overview**.  
+This repository is meant for **study, revision, and interview preparation**.
+
+---
+
+## 📌 Table of Contents
+- [1. What is Cybersecurity?](#1-what-is-cybersecurity)
+- [2. Why is Cybersecurity Important?](#2-why-is-cybersecurity-important)
+- [3. Challenges in Cybersecurity](#3-challenges-in-cybersecurity)
+- [4. Cybersecurity Trends](#4-cybersecurity-trends)
+- [5. Common Cyberattacks & Solutions](#5-common-cyberattacks--solutions)
+- [6. ITAM vs CSAM](#6-itam-vs-csam)
+- [7. CSAM](#7-csam)
+- [📖 Glossary](#-glossary)
+- [⚡ How to Use](#-how-to-use)
+- [📜 License](#-license)
+
+---
+
+## 1. What is Cybersecurity?
+Cybersecurity is the **practice of protecting systems, networks, programs, and data** from cyberattacks, unauthorized access, damage, or theft.  
+
+### 🔑 Core Goals (CIA Triad +)
+- **Confidentiality** → Protect data from unauthorized access  
+- **Integrity** → Ensure data is accurate and unaltered  
+- **Availability** → Ensure systems are available when needed  
+- **+ Authenticity, Non-repudiation, Privacy, Resilience**  
+
+### 🛡️ Scope of Cybersecurity
+- **Technical**: Networks, cloud, apps, IoT, endpoints, AI pipelines  
+- **Operational**: Threat detection, SOC operations, incident response  
+- **Governance**: Policies, compliance, vendor/supply chain assurance  
+
+---
+
+## 2. Why is Cybersecurity Important?
+- 📈 Increasing **cybercrime costs** globally (trillions of $ lost yearly).  
+- 🔐 Protection of **personal data** (Aadhaar, banking, health records).  
+- 🏢 Safeguards **business continuity** and trust.  
+- 🌍 Ensures **national security** (critical infrastructure, defense).  
+- ⚖️ Helps meet **legal & regulatory compliance** (GDPR, HIPAA, IT Act).  
+
+---
+
+## 3. Challenges in Cybersecurity
+- 🚨 **Evolving threat landscape** (AI-powered attacks, ransomware-as-a-service).  
+- 🛠️ **Skill shortage** → Demand for professionals > Supply.  
+- ☁️ **Cloud security** misconfigurations.  
+- 📱 **IoT devices** with weak/no security.  
+- 🏢 **Insider threats** (employees, contractors).  
+- 🔄 **Rapid digital transformation** → Attack surface keeps expanding.  
+- 💰 **Cost of implementation** for small/medium enterprises.  
+
+---
+
+## 4. Cybersecurity Trends
+- 🤖 **AI in cybersecurity** (AI-powered defense and attacks).  
+- ☁️ **Zero Trust Architecture** adoption.  
+- 🧑‍💻 **XDR (Extended Detection & Response)**.  
+- 🏢 **Cloud-native security** tools.  
+- 🔐 **Passwordless authentication** (biometrics, passkeys).  
+- 📡 **IoT/OT security** gaining importance.  
+- 🛡️ **Regulatory compliance & privacy laws** enforcement.  
+
+---
+
+## 5. Common Cyberattacks & Solutions
+
+### 🔥 Major Cyberattacks
+- **Malware** → Viruses, worms, trojans, spyware.  
+  ✅ Solution: Antivirus, patching, firewalls, behavior monitoring.  
+
+- **Phishing** → Fake emails/websites tricking users.  
+  ✅ Solution: Email filters, user training, 2FA.  
+
+- **Password Attacks** → Brute force, credential stuffing.  
+  ✅ Solution: Strong passwords, MFA, password managers.  
+
+- **DDoS (Distributed Denial of Service)** → Flooding servers with traffic.  
+  ✅ Solution: Load balancers, DDoS mitigation services (Cloudflare, AWS Shield).  
+
+- **Man-in-the-Middle (MITM)** → Intercepting communication.  
+  ✅ Solution: HTTPS, VPN, encryption, secure Wi-Fi.  
+
+- **Drive-by Download** → Malicious code auto-installed from websites.  
+  ✅ Solution: Updated browsers, disable auto-downloads, endpoint security.  
+
+- **Malvertising** → Malware spread via online ads.  
+  ✅ Solution: Ad blockers, secure ad networks, anti-malware.  
+
+- **Rogue Software (Fake Antivirus)** → Tricks user to install malware.  
+  ✅ Solution: Awareness, allow only trusted software, EDR.  
+
+### ⚡ Other Attacks
+- SQL Injection  
+- Cross-Site Scripting (XSS)  
+- Insider Attacks  
+- Supply Chain Attacks  
+
+---
+
+## 6. ITAM vs CSAM (Table)
+
+| Feature              | ITAM (IT Asset Management)                  | CSAM (Cybersecurity Asset Management) |
+|----------------------|---------------------------------------------|---------------------------------------|
+| **Focus**            | Tracking IT assets (hardware/software)      | Security visibility & risk of assets  |
+| **Objective**        | Inventory, cost mgmt, lifecycle mgmt        | Detect shadow IT, vulnerabilities, compliance |
+| **Data Collected**   | Asset type, ownership, cost                 | Configs, vulnerabilities, exposure    |
+| **Primary Users**    | IT, Finance, Procurement teams              | Security, Risk, Compliance teams      |
+| **Outcome**          | Efficient IT operations, cost savings       | Reduced cyber risk, stronger defense  |
+
+---
+
+## 7. CSAM (Cybersecurity Asset Management)
+CSAM is the **process of continuously identifying, classifying, and securing all assets** (devices, apps, cloud resources, IoT, containers) within an organization.  
+
+### 🎯 Goals
+- 100% visibility of all digital assets  
+- Detect **shadow IT** and unmanaged devices  
+- Assess **security posture** of each asset  
+- Automate **patching, monitoring, compliance checks**  
+
+### 🛠️ Benefits
+- Stronger security operations  
+- Reduced attack surface  
+- Easier compliance reporting  
+- Faster incident response  
+
+---
+
+## 📖 Glossary
+- **CIA Triad**: Confidentiality, Integrity, Availability  
+- **Zero Trust**: Never trust, always verify  
+- **XDR**: Extended Detection & Response  
+- **Shadow IT**: Assets deployed without IT/security approval  
+
+---
+
+## ⚡ How to Use
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/your-username/cybersecurity-notes.git
